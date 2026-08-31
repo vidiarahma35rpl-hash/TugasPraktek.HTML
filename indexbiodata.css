@@ -1,0 +1,96 @@
+/* ========================================================
+   FILE: style.css
+   Keterangan: CSS Eksternal untuk Tugas Biodata Diri
+   ======================================================== */
+
+/* --- 1. ELEMENT SELECTORS (Minimal 3 berbeda) --- */
+
+/* Element Selector 1: body */
+body {
+    background-color: #f0f4f8; /* Warna latar belakang halaman */
+    color: #334155;            /* Warna teks utama */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Element Selector 2: h1 */
+h1 {
+    color: #1e293b;            /* Warna teks judul */
+    font-size: 28px;           /* Ukuran huruf judul */
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+/* Element Selector 3: p */
+p {
+    font-size: 16px;           /* Ukuran huruf paragraf */
+    line-height: 1.6;
+    color: #475569;
+}
+
+/* Element Selector 4: footer */
+footer {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 13px;
+    color: #94a3b8;
+}
+
+
+/* --- 2. CLASS SELECTORS (Minimal 2) --- */
+
+/* Class Selector 1: .card */
+.card {
+    background-color: #ffffff; /* Warna latar kartu */
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Class Selector 2: .info-label */
+.info-label {
+    font-weight: bold;
+    color: #4f46e5;            /* Warna teks label */
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+}
+
+/* Class Selector 3: .badge */
+.badge {
+    background-color: #e0e7ff;
+    color: #4338ca;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+
+/* --- 3. ID SELECTORS (Minimal 1) --- */
+
+/* ID Selector 1: #biodata-card */
+#biodata-card {
+    border-top: 6px solid #6366f1;
+}
+
+/* ID Selector 2: #motto */
+#motto {
+    background-color: #fffbeb;  /* Warna latar motto */
+    border-left: 4px solid #f59e0b;
+    padding: 12px 16px;
+    font-style: italic;
+    color: #b45309;            /* Warna teks motto */
+    margin-top: 15px;
+    border-radius: 0 8px 8px 0;
+}
